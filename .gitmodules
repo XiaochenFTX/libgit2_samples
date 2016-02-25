@@ -1,0 +1,3 @@
+[submodule "extras/libgit2"]
+	path = extras/libgit2
+	url = git@github.com:libgit2/libgit2.git
