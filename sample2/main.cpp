@@ -22,10 +22,10 @@ int main() {
         goto SHUTDOWN;
     }
 
-
+    // get index
     git_repository_index(&index, rep);
 
-    //git add file
+    // git add file
     error = git_index_add_bypath(index, "file");
     if (error < 0)
     {
@@ -34,9 +34,11 @@ int main() {
     }
     else
     {
+        /* Write the in-memory index to disk */
         git_index_write(index);
     }
 
+    //
     git_index_free(index);
 
 SHUTDOWN:
