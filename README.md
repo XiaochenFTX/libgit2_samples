@@ -1,4 +1,13 @@
 # libgit2_samples
 samples for libgit2
 
-更具体的说明: [libgit2使用教程](http://ftxtool.org/index.php/category/libgit2/)
+更具体的说明: [libgit2使用教程](http://ftxtool.org/index.php/category/libgit2/)  
+[基础术语详解](http://ftxtool.org/index.php/2016/03/12/95/)  
+
+
+### 目录:
+sample1: [git init](http://ftxtool.org/index.php/2016/02/27/67/)  
+sample2: [git add](http://ftxtool.org/index.php/2016/03/05/80/)  
+sample3: [git commit](http://ftxtool.org/index.php/2016/03/13/102/)  
+sample4: [git status](http://ftxtool.org/index.php/2016/03/25/113/)  
+sample5: [git diff](http://ftxtool.org/index.php/2016/04/03/127/)
