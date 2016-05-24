@@ -59,7 +59,7 @@ int main()
 
     // connect
     remote_conn_opt.credentials = cred_acquire_cb;
-    error = git_remote_connect(remote, GIT_DIRECTION_FETCH, &remote_conn_opt, nullptr);
+    error = git_remote_connect(remote, GIT_DIRECTION_FETCH, &remote_conn_opt, nullptr, nullptr);
     if (error < 0)
     {
         const git_error *e = giterr_last();
