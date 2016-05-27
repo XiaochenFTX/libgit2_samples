@@ -57,6 +57,7 @@ int main()
 
     // git fetch
     fetch_opts.callbacks.credentials = cred_acquire_cb;
+//    fetch_opts.prune = GIT_FETCH_PRUNE;    // --prune
     error = git_remote_fetch(remote, nullptr, &fetch_opts, nullptr);
     if (error < 0)
     {
