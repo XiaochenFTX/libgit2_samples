@@ -5,7 +5,6 @@
 #include <git2.h>
 
 #include <iostream>
-#include <git2/remote.h>
 
 const char* path = "/Users/xiaochen/Documents/data";
 
